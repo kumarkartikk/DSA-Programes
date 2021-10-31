@@ -14,9 +14,9 @@ int lcs( char[] X, char[] Y, int m, int n )
 }
 
 /* Utility function to get max of 2 integers */
-int max(int a, int b)
+int max(int x, int y)
 {
-	return (a > b)? a : b;
+	return (x > y)? x : y;
 }
 
 public static void main(String[] args)
